@@ -1,0 +1,41 @@
+process_doc: Create new document
+content_summary: Create a comprehensive README for the OctoAcme Project Management Docs that serves as the entry point for all project management processes. The README should include a brief overview of OctoAcme's project management approach, complete links to all process documentation in the docs/ folder, quick reference guide to key artifacts and roles, and guidance on when to use each process document.
+rationale: Currently, the project management process documents are scattered across the docs/ folder with no central entry point. New team members and stakeholders need a clear way to discover and navigate all available processes. A README will improve discoverability of OctoAcme processes, reduce onboarding time for new team members, provide a single source of truth for project management guidance, connect process workflows to actual roles and responsibilities, and support the goal of centralizing institutional knowledge.
+example_content: |
+  # OctoAcme Project Management Documentation
+  
+  Welcome to the OctoAcme project management knowledge base. This documentation covers our proven approach to planning, executing, and delivering projects successfully.
+  
+  ## Quick Overview
+  
+  OctoAcme follows a customer-first, iterative delivery model with clear ownership, data-informed decisions, and psychological safety. Our approach spans five key phases: Initiation, Planning, Execution, Release, and Retrospective.
+  
+  ## Core Process Documents
+  
+  - **[Project Management Overview](./octoacme-project-management-overview.md)** - Start here to understand OctoAcme's principles, roles, and lifecycle
+  - **[Project Initiation Guide](./octoacme-project-initiation.md)** - Validate business need and authorize new work
+  - **[Project Planning](./octoacme-project-planning.md)** - Convert approved initiatives into actionable plans
+  - **[Execution & Tracking](./octoacme-execution-and-tracking.md)** - Manage day-to-day execution and track progress
+  - **[Release & Deployment Guide](./octoacme-release-and-deployment.md)** - Standardize releases to production
+  - **[Risk Management & Communication](./octoacme-risks-and-communication.md)** - Identify and manage risks and dependencies
+  - **[Retrospective & Continuous Improvement](./octoacme-retrospective-and-continuous-improvement.md)** - Capture learnings and drive improvements
+  - **[Roles & Personas](./octoacme-roles-and-personas.md)** - Reference for key team roles and responsibilities
+  
+  ## Key Roles
+  
+  - **Project Manager (PM)** - Coordinates delivery, schedules, risks, communications
+  - **Product Manager (PdM)** - Defines outcomes, prioritizes backlog, measures success
+  - **Developers** - Implement features, collaborate on design and testability
+  - **QA/Testing** - Validate quality and acceptance criteria
+  
+  ## Getting Started
+  
+  1. New to OctoAcme? Start with the [Project Management Overview](./octoacme-project-management-overview.md)
+  2. Starting a new project? Follow the [Initiation Guide](./octoacme-project-initiation.md)
+  3. Planning sprint work? Check [Project Planning](./octoacme-project-planning.md)
+  4. Managing execution? See [Execution & Tracking](./octoacme-execution-and-tracking.md)
+  5. Preparing a release? Review the [Release & Deployment Guide](./octoacme-release-and-deployment.md)
+acceptance_criteria: |
+  - [x] Content aligns with existing process docs
+  - [x] Update improves clarity or closes a documented gap
+  - [x] Proposed content has been reviewed with stakeholders (if needed)
